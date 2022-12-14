@@ -38,7 +38,7 @@ emma.account.parent('parent_account_id').list(function (err, results) {
 ### Retrieve Mailings
 
 ```js
-emma.mailing.subaccount('subaccount_id').list(function (err, results) {
+emma.mailing.subaccount('subaccount_id').list({}, function (err, results) {
   // do something
 }
 ```
