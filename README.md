@@ -43,6 +43,25 @@ emma.mailing.subaccount('subaccount_id').list({}, function (err, results) {
 }
 ```
 
+#### Sample Response
+
+```json
+{
+    "subaccounts": [
+        {
+            "account_id": 101,
+            "account_name": "Test Account Name",
+            "account_status": "active"
+        },
+        {
+            "account_id": 102,
+            "account_name": "Test Account Name 2",
+            "account_status": "retired"
+        }
+    ]
+}
+```
+
 You will need to generate your own API access tokens using the settings panel within emma.
 
 ## To Do
