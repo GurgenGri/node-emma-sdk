@@ -28,7 +28,7 @@ You will need to generate your own API access tokens using the settings panel wi
 
 ### Fields
 
-* emma.subaccount(id).subaccount(id).field.list([params], callback);
+* emma.subaccount(id).field.list([params], callback);
 * emma.subaccount(id).field.create(details, callback);
 * emma.subaccount(id).field.withID(id).details([params], callback);
 * emma.subaccount(id).field.withID(id).delete(callback);
