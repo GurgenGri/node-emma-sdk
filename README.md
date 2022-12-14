@@ -27,6 +27,21 @@ var emma = new Emma({
 });
 ```
 
+### Retrieve Subaccounts
+
+```js
+var Emma = require('emma-sdk');
+
+var emma = new Emma({
+  publicKey: "your public key",
+  privateKey: "private key"
+});
+
+emma.account.parent('parent_account_id').list(function (err, results) {
+  // do something
+}
+```
+
 You will need to generate your own API access tokens using the settings panel within emma.
 
 ## To Do
