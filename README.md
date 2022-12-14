@@ -1,3 +1,4 @@
+<div align="center">
 ![Emma Logo](https://api.myemma.com/_static/img/logo.png)
 
 [![GurgenGri - node-emma-sdk](https://img.shields.io/static/v1?label=GurgenGri&message=node-emma-sdk&color=blue&logo=github)](https://github.com/GurgenGri/node-emma-sdk "Go to GitHub repo")
@@ -5,6 +6,10 @@
 [![forks - node-emma-sdk](https://img.shields.io/github/forks/GurgenGri/node-emma-sdk?style=social)](https://github.com/GurgenGri/node-emma-sdk)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 [![issues - node-emma-sdk](https://img.shields.io/github/issues/GurgenGri/node-emma-sdk)](https://github.com/GurgenGri/node-emma-sdk/issues)
+
+</div>
+
+<hr>
 
 # emma-sdk
 
