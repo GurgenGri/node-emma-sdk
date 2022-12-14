@@ -1,3 +1,9 @@
+[![GurgenGri - node-emma-sdk](https://img.shields.io/static/v1?label=GurgenGri&message=node-emma-sdk&color=blue&logo=github)](https://github.com/GurgenGri/node-emma-sdk "Go to GitHub repo")
+[![stars - node-emma-sdk](https://img.shields.io/github/stars/GurgenGri/node-emma-sdk?style=social)](https://github.com/GurgenGri/node-emma-sdk)
+[![forks - node-emma-sdk](https://img.shields.io/github/forks/GurgenGri/node-emma-sdk?style=social)](https://github.com/GurgenGri/node-emma-sdk)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+[![issues - node-emma-sdk](https://img.shields.io/github/issues/GurgenGri/node-emma-sdk)](https://github.com/GurgenGri/node-emma-sdk/issues)
+
 # emma-sdk
 
 Node.js wrapper for the [Emma](http://myemma.com/) API.
