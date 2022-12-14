@@ -1,4 +1,4 @@
-<div align="center'>
+<div align="center">
 
 ![Emma Logo](https://api.myemma.com/_static/img/logo.png)
 
