@@ -34,15 +34,6 @@ emma.account.parent('parent_account_id').list(function (err, results) {
   // do something
 }
 ```
-
-### Retrieve Mailings
-
-```js
-emma.mailing.subaccount('subaccount_id').list({}, function (err, results) {
-  // do something
-}
-```
-
 #### Sample Response
 
 ```json
@@ -60,6 +51,79 @@ emma.mailing.subaccount('subaccount_id').list({}, function (err, results) {
         }
     ]
 }
+```
+
+### Retrieve Mailings
+
+```js
+emma.mailing.subaccount('subaccount_id').list({}, function (err, results) {
+  // do something
+}
+```
+
+#### Sample Response
+
+```json
+[
+  {
+    "mailing_type": "m",
+    "send_started": null,
+    "cancel_by_user_id": null,
+    "mailing_id": 201,
+    "recipient_count": 0,
+    "cancel_ts": null,
+    "mailing_status": "p",
+    "month": null,
+    "failure_ts": null,
+    "reply_to": null,
+    "year": null,
+    "datacenter": null,
+    "started_or_finished": null,
+    "account_id": 100,
+    "disabled": false,
+    "created_ts": "@D:2013-08-22T09:41:45",
+    "sender": "Kevin McConnell",
+    "plaintext_only": false,
+    "name": "Cancellable mailing",
+    "parent_mailing_id": null,
+    "failure_message": null,
+    "send_finished": null,
+    "send_at": null,
+    "signup_form_id": null,
+    "subject": "Cancellable mailing",
+    "purged_at": null,
+    "archived_ts": null
+  },
+  {
+    "mailing_type": "m",
+    "send_started": null,
+    "cancel_by_user_id": null,
+    "mailing_id": 200,
+    "recipient_count": 0,
+    "cancel_ts": null,
+    "mailing_status": "c",
+    "month": null,
+    "failure_ts": null,
+    "reply_to": null,
+    "year": null,
+    "datacenter": null,
+    "started_or_finished": null,
+    "account_id": 100,
+    "disabled": false,
+    "created_ts": "@D:2013-08-22T09:41:45",
+    "sender": "Kevin McConnell",
+    "plaintext_only": false,
+    "name": "Sample Mailing",
+    "parent_mailing_id": null,
+    "failure_message": null,
+    "send_finished": null,
+    "send_at": null,
+    "signup_form_id": null,
+    "subject": "Sample Mailing for [% member:first_name %] [% member:last_name %]",
+    "purged_at": null,
+    "archived_ts": null
+  }
+]
 ```
 
 You will need to generate your own API access tokens using the settings panel within emma.
