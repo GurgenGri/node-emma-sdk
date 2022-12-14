@@ -23,6 +23,10 @@ You will need to generate your own API access tokens using the settings panel wi
 
 ## Supported Methods
 
+### Accounts
+
+* emma.account.list(callback);
+
 ### Fields
 
 * emma.field.list([params], callback);
