@@ -1,15 +1,18 @@
 {
-  "name": "emma-sdk",
-  "version": "0.0.3",
-  "description": "A Node.js client for the Emma API",
+  "name": "node-emma-sdk",
+  "version": "1.0.0",
+  "description": "A Node.js wrapper for Emma API",
   "main": "./lib/emma",
-  "author": {
-    "name": "Nathan Peck",
-    "email": "nathan@storydesk.com"
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha -R spec -s 100 -t 5000 ./tests/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nathanpeck/emma-sdk.git"
+    "url": "git://github.com/GurgenGri/node-emma-sdk.git"
   },
   "dependencies": {
     "request": "2.44.0"
@@ -18,16 +21,17 @@
     "chai": "1.9.1",
     "mocha": "1.21.4"
   },
-  "scripts": {
-    "test": "mocha -R spec -s 100 -t 5000 ./tests/test.js"
-  },
-  "license": "MIT",
   "keywords": [
-    "email",
     "emma",
+    "sdk",
+    "email",
     "marketing",
-    "client",
-    "sdk"
+    "client"
   ],
-  "readmeFilename": "README.md"
+  "author": "Gurgen Grigoryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GurgenGri/node-emma-sdk/issues"
+  },
+  "homepage": "https://github.com/GurgenGri/node-emma-sdk#readme"
 }
