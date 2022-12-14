@@ -30,14 +30,15 @@ var emma = new Emma({
 ### Retrieve Subaccounts
 
 ```js
-var Emma = require('emma-sdk');
-
-var emma = new Emma({
-  publicKey: "your public key",
-  privateKey: "private key"
-});
-
 emma.account.parent('parent_account_id').list(function (err, results) {
+  // do something
+}
+```
+
+### Retrieve Mailings
+
+```js
+emma.mailing.subaccount('subaccount_id').list(function (err, results) {
   // do something
 }
 ```
