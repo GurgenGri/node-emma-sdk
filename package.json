@@ -1,6 +1,6 @@
 {
   "name": "node-emma-sdk",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js wrapper for Emma API",
   "main": "./lib/emma",
   "directories": {
